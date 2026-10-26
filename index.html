@@ -1,0 +1,218 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>金町ROOM ゲストガイド</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;700;800&family=Cormorant+Garamond:wght@600;700&family=EB+Garamond:wght@400;500;700&family=Noto+Serif+SC:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+/* Layout: one column, antique paper sheets; sticky language bar; every language lives in one page. */
+:root{--bg:#F0E6D0;--fg:#33261C;--red:#8B3A2B;--on-red:#F0E6D0;--ink-bg:#33261C;--on-ink:#F0E6D0;--line:#33261C;--soft:#E7DABC;
+--f-ja:'Shippori Mincho B1','Noto Serif JP',serif;--f-en:'EB Garamond',Georgia,serif;--f-disp:'Cormorant Garamond',Georgia,serif;--f-zh:'Noto Serif SC','Songti SC',serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#241A13;--fg:#EADFC6;--red:#D98B77;--on-red:#241A13;--ink-bg:#EADFC6;--on-ink:#241A13;--line:#8E7C62;--soft:#2F2318;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#241A13;--fg:#EADFC6;--red:#D98B77;--on-red:#241A13;--ink-bg:#EADFC6;--on-ink:#241A13;--line:#8E7C62;--soft:#2F2318;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-ja);font-size:16px;line-height:1.75;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 48px}
+html[lang=en] body{font-family:var(--f-en);font-size:18px;line-height:1.55}
+html[lang=zh] body{font-family:var(--f-zh)}
+.wrap{max-width:760px;margin:0 auto}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1.5px solid var(--line);padding:10px 0;display:flex;gap:8px;justify-content:center}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.bar button{font:inherit;font-weight:700;font-size:15px;min-height:44px;padding:0 18px;border:1.5px solid var(--line);background:transparent;color:var(--fg);cursor:pointer}
+.bar button[aria-pressed=true]{background:var(--ink-bg);color:var(--on-ink)}
+.bar button:focus-visible,.copy:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+.frame{border:4px double var(--line);padding:22px 20px 28px;margin-top:20px;display:flex;flex-direction:column;gap:18px}
+h1,h2,h3{margin:0;line-height:1.25}
+h2{display:flex;gap:10px;align-items:baseline;font-size:26px;font-weight:800;border-bottom:1.5px solid var(--line);padding-bottom:4px}
+html[lang=en] h2{font-family:var(--f-disp);font-size:34px;font-weight:700}
+h2 i{color:var(--red);font-style:normal;font-size:.8em}
+h3{font-size:19px;font-weight:800}
+html[lang=en] h3{font-size:22px}
+p{margin:0}
+b{font-weight:800}
+.photos{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+.photos img{width:100%;aspect-ratio:.8;object-fit:cover;display:block;border:1.5px solid var(--line)}
+.title{text-align:center;display:flex;flex-direction:column;gap:6px}
+.title .eb{color:var(--red);font-weight:800;letter-spacing:.35em;font-size:14px}
+.title h1{font-size:clamp(40px,11vw,60px);font-weight:800;letter-spacing:.06em}
+html[lang=en] .title h1{font-family:var(--f-disp);letter-spacing:.02em}
+.title .sub{font-size:22px;font-weight:700;letter-spacing:.3em}
+html[lang=en] .title .sub{letter-spacing:.35em;text-transform:uppercase;font-size:18px}
+.red{background:var(--red);color:var(--on-red);padding:14px 18px}
+.ink{background:var(--ink-bg);color:var(--on-ink);padding:14px 18px}
+.at{color:var(--red)}
+.card{border:1.5px solid var(--line);padding:12px 16px;min-width:0}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.num{display:inline-flex;width:30px;height:30px;border-radius:50%;background:var(--red);color:var(--on-red);align-items:center;justify-content:center;font-weight:800;font-size:16px;flex-shrink:0}
+.num.k{background:var(--ink-bg);color:var(--on-ink)}
+.rule{display:flex;gap:12px;align-items:flex-start}
+.rule>div{min-width:0}
+.big{color:var(--red);font-weight:800;font-size:clamp(24px,6.4vw,30px);line-height:1.25}
+.tel{font-size:clamp(30px,9vw,40px);font-weight:800;letter-spacing:.04em;line-height:1.2}
+.em{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center;justify-content:space-between}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chips span{background:var(--red);color:var(--on-red);font-weight:800;font-size:clamp(17px,4.6vw,22px);padding:4px 14px}
+.mono{font-family:ui-monospace,'Courier New',monospace;font-weight:700;font-size:17px;word-break:break-all}
+.copy{font:inherit;font-size:13px;min-height:36px;padding:0 12px;border:1.5px solid var(--line);background:transparent;color:var(--fg);cursor:pointer;margin-top:6px}
+.tag{display:inline-block;background:var(--ink-bg);color:var(--on-ink);font-weight:800;font-size:14px;padding:0 10px}
+.lab{font-size:13.5px;margin-top:6px}
+.map{width:100%;height:auto;display:block;border:1.5px solid var(--line)}
+.sched{text-align:center;border-width:2.5px}
+.sched .d{color:var(--red);font-weight:800;font-size:clamp(20px,5.4vw,24px);line-height:1.3}
+.sp{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:18px;align-items:start}
+.sp img{width:100%;height:auto;display:block;border:1.5px solid var(--line)}
+.sec{display:flex;flex-direction:column;gap:6px}
+.sec h3{display:flex;align-items:center;gap:10px;border-bottom:1.5px solid var(--line);padding-bottom:4px}
+.sec ul{list-style:none;margin:0;padding:0;font-size:15px;line-height:1.7}
+.sec li{margin-top:2px}
+.step{display:flex;gap:10px;align-items:flex-start;margin-top:10px}
+.ck{width:26px;height:26px;border:2.5px solid var(--red);flex-shrink:0;margin-top:3px}
+.thanks{text-align:center;padding:24px 16px}
+.thanks .t{font-size:clamp(22px,6vw,28px);font-weight:800;letter-spacing:.08em}
+html[lang=en] .thanks .t{font-family:var(--f-disp);letter-spacing:0;font-size:clamp(24px,6.4vw,34px)}
+@media (max-width:620px){.grid2,.grid3,.sp{grid-template-columns:minmax(0,1fr)}.frame{padding:18px 14px 24px}}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style>
+<div class="wrap">
+<div class="bar" role="group" aria-label="Language">
+<button type="button" data-l="ja" aria-pressed="true">日本語</button>
+<button type="button" data-l="en" aria-pressed="false">English</button>
+<button type="button" data-l="zh" aria-pressed="false">中文</button>
+</div>
+<main id="app" class="frame"></main>
+</div>
+<script>
+var I="img/";
+var PH=[["3f507b2a32b4369d2e950bd9ab8129d0","cc6fa3246ae4f5ab23bb8c5c467f790a","16daf5771979ef8063028b9a771a07ac","c7c7a03508bfadb5e8773b4233a04e55"],["c58eafd9cb6dd0a0d7730d52c2733afe","8bdd03023a9c329ab80517cf49927350","15f0b01a11cb9a71e955c0aac6fdd8c4","d790915c90f56df8378fd1267dacf781"]];
+var L={
+ja:{lang:"ja",doc:"金町ROOM ゲストガイド",eb:"GUEST GUIDE",name:"金町ROOM",sub:"ご宿泊ガイド",
+intro:"ご利用ありがとうございます。<br>みなさまが気持ちよくお過ごしいただくために、このガイドをご覧ください。",
+photoAlt:["キッチンカウンター","二段ベッド","キッチン","和室"],
+emH:"緊急連絡先",emNote:"ご不明な点があれば、遠慮なくご連絡ください。対応言語は日本語のみです。英語をご希望の場合は、メッセージをお送りください。",
+wifiH:"Wi-Fi",wifiNote:"どちらか1つに接続してください。",net:"ネットワーク名",pw:"パスワード",copy:"コピー",copied:"コピーしました",
+addrH:"住所・行き方",addr:"東京都葛饰区金町5丁目5-21".replace("葛饰","葛飾"),walk:"金町駅から徒歩7分（600m）",mapAlt:"金町駅から金町ROOMまでの徒歩ルート",
+rulesH:"ご利用のルール",rulesIntro:"みなさまが気持ちよくお使いいただくために、次のルールをお守りください。",
+rules:[["静かにお過ごしください","住宅街のため、<b>窓は閉めて</b>ご利用ください。大声で騒ぐ、音楽を大音量で流すなど、近隣のご迷惑になる行為はご遠慮ください。入口周辺でのたむろも迷惑になります。近隣から指摘があった場合は、利用を中止していただくことがあります。"],
+["ゴミは分別して捨てる","下の「ゴミの分別」に従って捨ててください。<b>大型のゴミはお持ち帰り</b>ください。"],
+["建物内はすべて禁煙","喫煙が発覚した場合、清掃・対応費として <span class=big>20,000円</span> を請求します。","smoke"],
+["壊した・汚したときは、必ずご連絡を","備品や設備を破損・汚損した場合は、故意か過失かを問わず<b>必ずご連絡</b>ください。状況によっては、対応費と損害金を請求することがあります。"]],
+ruleWarn:"ルール違反が確認された場合は、利用を中止していただくことがあります。",
+ngH:"これはNG",ngIntro:"利用規約の禁止事項のうち、特にご注意いただきたい行為です。",
+ngs:[["無断延長","ご予約の時間内に、入室から退出までを終えてください。"],["利用不可エリアへの入室","無断で入室した場合は、対応費を請求します。"],["火気の使用","キッチンでの調理以外の火気は禁止です。使用すると警報機が作動します。"],["公序良俗に反する行為","公序良俗に反する行為は禁止です。"]],
+over:["予約人数を超えての利用","予約人数を超えて利用していることが発覚した場合、追加料金を請求します。","1泊：10,000円 × 人数","対応費：20,000円","宿泊しなくても、施設に入室した時点で利用者とみなします。"],
+trashH:"ゴミの分別",trashWarnH:"宿泊時に出たゴミは、一般の集積場に捨てられません。",
+trashWarn:"「事業系一般廃棄物」として処理します。ゴミBOXがいっぱいになったら、<b>サイト内のメッセージ</b>でご連絡ください。受け取りに伺います。",
+sched:[["燃えるゴミ","毎週金曜日　17時まで"],["ペットボトル・缶・ビン","毎週火曜日　17時まで"]],schedPlace:"玄関前のゴミBOXに出してください",large:"大型のゴミはお持ち帰りください。",
+bin1:"燃えるゴミ",bin1L:["<b>プラスチック類</b>（プラマーク以外）<br>日用雑貨、おもちゃ、ビデオテープ、CD など","<b>革製品</b>　靴、カバン、ベルト など","<b>ゴム・ビニール製品</b><br>ゴムホース、長靴、運動靴、ゴム手袋 など","<b>生ごみ</b>　台所の生ごみ（水切りをしてください）、貝や卵の殻","<b>食用油</b>　固めるか、布に染み込ませてください","<b>木くず</b>　落ち葉、短い剪定枝 など","<b>衣類・紙くず</b>　ティッシュ、紙コップ"],
+bin2:"燃えないゴミ",bin2L:["<b>金属類</b><br>使用済みライター、スプレー缶、カセットボンベ など","<b>アルミ製品</b><br>アルミホイル、レンジカバー、加熱用のうどん容器 など","<b>ガラス製品</b>　コップ・グラス、電球、蛍光管 など","<b>陶磁器</b>　食器、花びん など","<b>乾電池</b>　アルカリ電池、マンガン電池"],
+binAlt1:"上段が「もえるゴミ」、下段が「もえないゴミ」のゴミ箱",binAlt2:"上段が「ペットボトル」、下段が「缶」のゴミ箱",
+b3:["ペットボトル","缶","瓶"],rinse:"キャップ・ふたをはずし、中を軽くすすいでください。",bag:["ビンは別にして、袋に入れてください。","ゴミ袋は③の上にあります。"],tue:"<b>毎週火曜日　17時まで</b>に、玄関前のゴミBOXに出してください。",
+howH:"ゴミの出し方（玄関前のゴミBOX）",boxAlt:"玄関前のゴミBOX",
+steps:["袋の口を<b>縛ります</b>。","出す日に、玄関前の<b>ゴミBOX</b>（写真）に入れます。<br>燃えるゴミ：毎週金曜日 17時まで<br>ペットボトル・缶・ビン：毎週火曜日 17時まで","新しいゴミ袋は、<b>ゴミ箱の上</b>に用意してあります。"],
+foodH:"飲食・キッチン",okH:"OK",okL:["<b>飲食物の持ち込み</b>ができます。","<b>キッチンは無料</b>でご利用いただけます。","<b>調味料</b>をご用意しています。"],ngH2:"ご遠慮ください",ngL:["<b>揚げ物</b>の調理","<b>匂いの強い食材</b>の持ち込み・調理"],
+food1:"<b>コップ・グラス・お皿は数に限りがあります。</b>事前にご確認のうえ、必要に応じてお持ちください。",food2:"<b>余った食材は、すべてお持ち帰りください。</b>",
+noteH:"ご注意ください",notes:[["階段のみ・急です","エレベーターはありません。階段が急ですので、お気をつけください。"],["お手洗いは1階と2階","2か所あります。男女共用です。"],["貴重品は自己管理","お荷物は各自で管理してください。紛失された場合、補償はできません。"]],
+checkH:"ご退出前のチェック",checks:[["電気・エアコンのスイッチは確認しましたか？",""],["窓の鍵は閉まっていますか？",""],["忘れ物はありませんか？","充電器・コネクタ・傘・お子さまのおもちゃ・冷蔵庫の中 など"]],
+helpH:"お困りのときは",th1:"ご利用ありがとうございました",th2:"またのお越しをお待ちしております。"},
+en:{lang:"en",doc:"Kanamachi ROOM Guest Guide",eb:"GUEST GUIDE",name:"Kanamachi ROOM",sub:"Guest Guide",
+intro:"Thank you for staying with us.<br>Please read this guide so that everyone can enjoy a pleasant stay.",
+photoAlt:["Kitchen counter","Bunk beds","Kitchen","Japanese-style room"],
+emH:"Emergency contact",emNote:"If you have any questions, please contact us. Support is available in Japanese only. If you need English, please send us a message.",
+wifiH:"Wi-Fi",wifiNote:"Connect to either network.",net:"Network name",pw:"Password",copy:"Copy",copied:"Copied",
+addrH:"Address & Access",addr:"5-5-21 Kanamachi, Katsushika-ku, Tokyo",walk:"7 minutes' walk from Kanamachi Station (600 m)",mapAlt:"Walking route from Kanamachi Station to Kanamachi ROOM",
+rulesH:"Rules of Use",rulesIntro:"To keep the stay pleasant for everyone, please follow these rules.",
+rules:[["Keep it quiet","This is a residential area, so please <b>keep the windows closed</b>. Please refrain from shouting, playing loud music, or any other behavior that may disturb the neighbors. Hanging around the entrance also bothers local residents. If a neighbor complains, we may ask you to stop using the facility."],
+["Sort your trash","Please dispose of trash following the “Sorting Your Trash” section below. <b>Please take large items with you.</b>"],
+["No smoking indoors","If smoking is discovered, a cleaning and handling fee of <span class=big>20,000 yen</span> will be charged.","smoke"],
+["Report any damage","If any equipment or facility is damaged or soiled, whether intentionally or accidentally, <b>please be sure to tell us</b>. Depending on the damage, repair costs and damages may be charged."]],
+ruleWarn:"If any use is found to violate these rules, your stay may be terminated.",
+ngH:"Prohibited Acts",ngIntro:"These are especially important among the prohibited acts listed in the Terms of Use.",
+ngs:[["Unauthorized extension","Please enter and leave within the time you reserved."],["Entering restricted areas","If you enter without permission, a response fee will be charged."],["Use of fire","Open flames are prohibited except for cooking in the kitchen. The alarm will sound if they are used."],["Acts against public order","Any act that violates public order and morals is prohibited."]],
+over:["More guests than reserved","If we find that more people are staying than reserved, an additional fee will be charged.","1 night: 10,000 yen × number of people","Response fee: 20,000 yen","You are considered a guest from the moment you enter the facility, even if you do not stay overnight."],
+trashH:"Sorting Your Trash",trashWarnH:"Trash from overnight stays cannot be put out at the general collection point.",
+trashWarn:"It is handled as “business general waste.” When the trash BOX is full, please <b>send us a message on the booking site</b> and we will come to collect it.",
+sched:[["Combustible","Every Friday, by 5:00 PM"],["PET bottles, cans & glass bottles","Every Tuesday, by 5:00 PM"]],schedPlace:"Put it in the trash BOX in front of the entrance",large:"Please take large trash home with you.",
+bin1:"Combustible",bin1L:["<b>Plastics</b> (without the recycling mark): household goods, toys, video tapes, CDs, etc.","<b>Leather:</b> shoes, bags, belts, etc.","<b>Rubber and vinyl:</b> hoses, boots, sneakers, rubber gloves, etc.","<b>Kitchen scraps</b> (please drain), shells and eggshells","<b>Cooking oil:</b> solidify it or soak it into cloth","<b>Wood waste:</b> fallen leaves, short pruned branches, etc.","<b>Clothing and paper scraps:</b> tissues, paper cups"],
+bin2:"Incombustible",bin2L:["<b>Metals:</b> used lighters, spray cans, gas canisters, etc.","<b>Aluminum:</b> foil, microwave covers, heating udon containers, etc.","<b>Glass:</b> cups, glasses, light bulbs, fluorescent tubes, etc.","<b>Ceramics:</b> tableware, flower vases, etc.","<b>Dry cell batteries:</b> alkaline and manganese"],
+binAlt1:"Trash bins: combustible (top) and incombustible (bottom)",binAlt2:"Trash bins: PET bottles (top) and cans (bottom)",
+b3:["PET bottles","Cans","Glass bottles"],rinse:"Remove the cap and lid, and rinse the inside lightly.",bag:["Please put glass bottles in a separate bag.","Trash bags are on top of ③."],tue:"<b>Every Tuesday, by 5:00 PM</b>, put them in the trash BOX in front of the entrance.",
+howH:"How to Put Out Trash (BOX at the Entrance)",boxAlt:"Trash BOX in front of the entrance",
+steps:["<b>Tie</b> the bag.","On collection day, put it in the <b>trash BOX</b> in front of the entrance (see photo).<br>Combustible: every Friday, by 5:00 PM<br>PET bottles, cans & glass bottles: every Tuesday, by 5:00 PM","New trash bags are on <b>top of the trash can</b>."],
+foodH:"Food, Drink & Kitchen",okH:"OK",okL:["<b>You may bring your own food and drinks.</b>","The kitchen is <b>free to use</b>.","<b>Seasonings</b> are provided."],ngH2:"Please avoid",ngL:["Cooking <b>fried food</b>","Bringing in or cooking <b>strongly scented food</b>"],
+food1:"<b>Cups, glasses and plates are limited in number.</b> Please check in advance and bring your own if needed.",food2:"<b>Please take all leftover food home with you.</b>",
+noteH:"Please Note",notes:[["Stairs only, and steep","There is no elevator. The stairs are steep, so please be careful."],["Restrooms on 1F and 2F","There are two restrooms, shared by men and women."],["Look after your valuables","Please keep your belongings with you. We cannot compensate for any loss."]],
+checkH:"Before You Leave",checks:[["Have you checked the light and air-conditioner switches?",""],["Have you checked that the windows are locked?",""],["Have you left anything behind?","Chargers, connectors, umbrellas, children's toys, items in the refrigerator, etc."]],
+helpH:"Need Help?",th1:"Thank you very much for staying at Kanamachi ROOM.",th2:"We look forward to welcoming you again."},
+zh:{lang:"zh-Hans",doc:"金町ROOM 住宿指南",eb:"GUEST GUIDE",name:"金町ROOM",sub:"住宿指南",
+intro:"感谢您的入住。<br>为了让大家都住得舒适，请阅读本指南。",
+photoAlt:["厨房吧台","双层床","厨房","和室"],
+emH:"紧急联系电话",emNote:"如有不明之处，请随时联系我们。我们仅提供日语服务。如需英语服务，请给我们发送消息。",
+wifiH:"Wi-Fi",wifiNote:"请连接以下任意一个网络。",net:"网络名称",pw:"密码",copy:"复制",copied:"已复制",
+addrH:"地址・交通",addr:"东京都葛饰区金町5丁目5-21",walk:"从金町站步行7分钟（600米）",mapAlt:"从金町站到金町ROOM的步行路线",
+rulesH:"使用规则",rulesIntro:"为了让大家都能舒适使用，请遵守以下规则。",
+rules:[["请保持安静","这里是住宅区，请<b>关好窗户</b>使用。请勿大声喧哗、大音量播放音乐等打扰邻居。在入口附近逗留也会造成困扰。如接到邻居投诉，我们可能会要求您停止使用。"],
+["垃圾请分类丢弃","请按照下方「垃圾分类」的方法丢弃。<b>大件垃圾请自行带走。</b>"],
+["建筑内全面禁烟","如发现吸烟，将收取清洁・处理费 <span class=big>20,000日元</span>。","smoke"],
+["弄坏或弄脏时，请务必联系我们","无论是故意还是过失，如损坏或弄脏了设备，<b>请务必联系我们</b>。视情况，可能会收取处理费和赔偿金。"]],
+ruleWarn:"如确认违反规则，我们可能会要求您停止使用。",
+ngH:"禁止行为",ngIntro:"以下是使用条款禁止事项中，特别需要注意的行为。",
+ngs:[["擅自延长时间","请在预约时间内完成入住到退房。"],["进入禁止使用的区域","擅自进入的，将收取处理费。"],["使用明火","除厨房烹饪外，禁止使用明火。使用时警报器会响起。"],["违反公序良俗的行为","禁止一切违反公序良俗的行为。"]],
+over:["超过预约人数使用","如发现实际使用人数超过预约人数，将收取额外费用。","1晚：10,000日元 × 人数","处理费：20,000日元","即使不住宿，一旦进入设施，即视为使用者。"],
+trashH:"垃圾分类",trashWarnH:"住宿期间产生的垃圾，不能丢到一般垃圾收集点。",
+trashWarn:"我们将作为「事业类一般废弃物」处理。垃圾箱（BOX）装满后，请通过<b>网站内的消息</b>联系我们，我们会上门收取。",
+sched:[["可燃垃圾","每周五　17点前"],["塑料瓶・罐・玻璃瓶","每周二　17点前"]],schedPlace:"请放入玄关前的垃圾箱（BOX）",large:"大件垃圾请自行带走。",
+bin1:"可燃垃圾",bin1L:["<b>塑料类</b>（无回收标志的）<br>日用杂货、玩具、录像带、CD 等","<b>皮革制品</b>　鞋、包、皮带等","<b>橡胶・乙烯制品</b><br>橡胶软管、长靴、运动鞋、橡胶手套等","<b>厨余垃圾</b>　厨房厨余（请沥干水分）、贝壳和蛋壳","<b>食用油</b>　请凝固，或用布吸收","<b>木屑</b>　落叶、较短的修剪枝条等","<b>衣物・废纸</b>　纸巾、纸杯"],
+bin2:"不可燃垃圾",bin2L:["<b>金属类</b><br>用完的打火机、喷雾罐、卡式气罐等","<b>铝制品</b><br>铝箔、微波炉罩、加热用乌冬面容器等","<b>玻璃制品</b>　杯子、灯泡、荧光灯管等","<b>陶瓷器</b>　餐具、花瓶等","<b>干电池</b>　碱性电池、锰电池"],
+binAlt1:"上层为「可燃垃圾」，下层为「不可燃垃圾」的垃圾桶",binAlt2:"上层为「塑料瓶」，下层为「罐」的垃圾桶",
+b3:["塑料瓶","罐","玻璃瓶"],rinse:"请取下瓶盖，并轻轻冲洗内部。",bag:["玻璃瓶请另外装袋。","垃圾袋放在③的上方。"],tue:"<b>每周二　17点前</b>，请放入玄关前的垃圾箱（BOX）。",
+howH:"垃圾丢弃方法（玄关前的垃圾箱）",boxAlt:"玄关前的垃圾箱",
+steps:["将袋口<b>扎紧</b>。","在丢弃日，放入玄关前的<b>垃圾箱</b>（见照片）。<br>可燃垃圾：每周五 17点前<br>塑料瓶・罐・玻璃瓶：每周二 17点前","新的垃圾袋放在<b>垃圾桶上方</b>。"],
+foodH:"饮食・厨房",okH:"可以",okL:["<b>可以自带饮食。</b>","厨房<b>免费使用</b>。","提供<b>调味料</b>。"],ngH2:"请避免",ngL:["烹饪<b>油炸食物</b>","携带或烹饪<b>气味强烈的食材</b>"],
+food1:"<b>杯子、玻璃杯和盘子数量有限。</b>请事先确认，如有需要请自行携带。",food2:"<b>剩余的食材，请全部带走。</b>",
+noteH:"注意事项",notes:[["只有楼梯，且很陡","没有电梯。楼梯很陡，请多加小心。"],["洗手间在1楼和2楼","共有2处，男女共用。"],["贵重物品请自行保管","行李请各自保管。如有丢失，恕不赔偿。"]],
+checkH:"退房前的检查",checks:[["电灯和空调的开关都确认了吗？",""],["窗户都已上锁了吗？",""],["有没有遗落物品？","充电器・转接头・雨伞・孩子的玩具・冰箱里的东西等"]],
+helpH:"遇到困难时",th1:"感谢您的入住",th2:"期待您再次光临。"}
+};
+var WIFI=[["2.4GHz","xg100n-7ba7f9-1","11ac0d750fb7f"],["5GHz","xg100n-7ba7f9-3","6033b00f44264"]];
+function h2(t){return '<h2><i>◆</i>'+t+'</h2>'}
+function render(k){
+var t=L[k],o=[],i;
+document.documentElement.lang=t.lang;document.title=t.doc;
+o.push('<div class="photos">'+PH[0].map(function(id,j){return '<img src="'+I+id+'.jpg" alt="'+t.photoAlt[j]+'">'}).join('')+'</div>');
+o.push('<div class="title"><div class="eb">'+t.eb+'</div><h1>'+t.name+'</h1><div class="sub">'+t.sub+'</div><p>'+t.intro+'</p></div>');
+o.push('<div class="red em"><div><div style="font-weight:800;letter-spacing:.1em">'+t.emH+'</div><div class="tel">03-6273-9301</div></div><p style="max-width:300px;font-size:14.5px;line-height:1.5">'+t.emNote+'</p></div>');
+o.push('<section class="grid2" style="align-items:start"><div style="display:flex;flex-direction:column;gap:10px">'+h2(t.wifiH)+'<p>'+t.wifiNote+'</p>'+WIFI.map(function(w,j){return '<div class="card"><span class="tag">'+w[0]+'</span><div class="lab">'+t.net+'</div><div class="mono">'+w[1]+'</div><div class="lab">'+t.pw+'</div><div class="mono">'+w[2]+'</div><button type="button" class="copy" data-c="'+w[2]+'">'+t.copy+' '+t.pw+'</button></div>'}).join('')+'</div>'+
+'<div style="display:flex;flex-direction:column;gap:10px">'+h2(t.addrH)+'<p><b style="font-size:1.1em">'+t.addr+'</b></p><p><span class="red" style="display:inline-block;padding:1px 12px;font-weight:800">'+t.walk+'</span></p><img class="map" src="'+I+PH[1][0]+'.jpg" alt="'+t.mapAlt+'"></div></section>');
+o.push('<section style="display:flex;flex-direction:column;gap:12px">'+h2(t.rulesH)+'<p>'+t.rulesIntro+'</p>'+t.rules.map(function(r,j){return '<div class="card rule"><span class="num">'+(j+1)+'</span><div><h3'+(r[2]?' class="at" style="font-size:clamp(24px,6.4vw,28px)"':'')+'>'+r[0]+'</h3><p>'+r[1]+'</p></div></div>'}).join('')+'<div class="red" style="text-align:center;font-weight:800">'+t.ruleWarn+'</div></section>');
+o.push('<section style="display:flex;flex-direction:column;gap:12px">'+h2(t.ngH)+'<p>'+t.ngIntro+'</p><div class="grid2">'+t.ngs.map(function(n){return '<div class="card"><h3><span class="at">×</span> '+n[0]+'</h3><p>'+n[1]+'</p></div>'}).join('')+'</div><div class="card"><h3><span class="at">×</span> '+t.over[0]+'</h3><p>'+t.over[1]+'</p><div class="chips" style="margin:8px 0 6px"><span>'+t.over[2]+'</span><span>'+t.over[3]+'</span></div><p><b>'+t.over[4]+'</b></p></div></section>');
+o.push('<section style="display:flex;flex-direction:column;gap:12px">'+h2(t.trashH+'　①〜⑤')+'<div class="red"><div style="font-weight:800;font-size:1.1em">'+t.trashWarnH+'</div><p style="margin-top:4px;font-size:.95em">'+t.trashWarn+'</p></div><div class="grid2">'+t.sched.map(function(s){return '<div class="card sched"><b>'+s[0]+'</b><div class="d">'+s[1]+'</div><div style="font-size:14px">'+t.schedPlace+'</div></div>'}).join('')+'</div><p style="text-align:center"><b>'+t.large+'</b></p>'+
+'<div class="card sp"><img src="'+I+PH[1][1]+'.jpg" alt="'+t.binAlt1+'"><div style="display:flex;flex-direction:column;gap:14px"><div class="sec"><h3><span class="num">①</span><span class="at">'+t.bin1+'</span></h3><ul>'+t.bin1L.map(function(x){return '<li>'+x+'</li>'}).join('')+'</ul></div><div class="sec"><h3><span class="num k">②</span>'+t.bin2+'</h3><ul>'+t.bin2L.map(function(x){return '<li>'+x+'</li>'}).join('')+'</ul></div></div></div>'+
+'<div class="card sp"><img src="'+I+PH[1][2]+'.jpg" alt="'+t.binAlt2+'"><div style="display:flex;flex-direction:column;gap:14px">'+['③','④','⑤'].map(function(c,j){return '<div class="sec"><h3><span class="num'+(j==1?' k':'')+'">'+c+'</span><span'+(j==1?'':' class="at"')+'>'+t.b3[j]+'</span></h3><p style="font-size:15px">'+t.rinse+'</p></div>'}).join('')+'<div class="ink"><b>'+t.bag[0]+'</b><br>'+t.bag[1]+'</div><div class="red">'+t.tue+'</div><p><b>'+t.large+'</b></p></div></div></section>');
+o.push('<section style="display:flex;flex-direction:column;gap:12px">'+h2(t.howH)+'<div class="card sp"><img src="'+I+PH[1][3]+'.jpg" alt="'+t.boxAlt+'"><div>'+t.steps.map(function(s,j){return '<div class="step"><span class="num k" style="width:28px;height:28px">'+(j+1)+'</span><div>'+s+'</div></div>'}).join('')+'</div></div></section>');
+o.push('<section style="display:flex;flex-direction:column;gap:12px">'+h2(t.foodH)+'<div class="grid2"><div class="card"><h3 class="at"><span>○</span> '+t.okH+'</h3>'+t.okL.map(function(x){return '<p style="margin-top:6px">'+x+'</p>'}).join('')+'</div><div class="card"><h3 class="at"><span>×</span> '+t.ngH2+'</h3>'+t.ngL.map(function(x){return '<p style="margin-top:6px">'+x+'</p>'}).join('')+'</div></div><div class="card"><p>'+t.food1+'</p><p style="margin-top:6px">'+t.food2+'</p></div></section>');
+o.push('<section style="display:flex;flex-direction:column;gap:12px">'+h2(t.noteH)+'<div class="grid3">'+t.notes.map(function(n){return '<div class="card"><h3>'+n[0]+'</h3><p style="margin-top:6px;font-size:.95em">'+n[1]+'</p></div>'}).join('')+'</div></section>');
+o.push('<section style="display:flex;flex-direction:column;gap:10px">'+h2(t.checkH)+t.checks.map(function(c){return '<div class="card rule"><span class="ck" aria-hidden="true"></span><div><p style="font-weight:800;font-size:1.2em;line-height:1.4">'+c[0]+'</p>'+(c[1]?'<p style="font-size:.95em">'+c[1]+'</p>':'')+'</div></div>'}).join('')+'</section>');
+o.push('<section style="display:flex;flex-direction:column;gap:10px">'+h2(t.helpH)+'<div class="card" style="text-align:center"><div>'+t.emH+'</div><div class="tel at">03-6273-9301</div></div></section>');
+o.push('<div class="ink thanks"><div class="t">'+t.th1+'</div><p style="margin-top:4px">'+t.th2+'</p></div>');
+document.getElementById('app').innerHTML=o.join('');
+}
+function setLang(k,scroll){
+if(!L[k])k='ja';
+render(k);
+Array.prototype.forEach.call(document.querySelectorAll('.bar button'),function(b){b.setAttribute('aria-pressed',b.getAttribute('data-l')===k?'true':'false')});
+try{localStorage.setItem('kanamachi-lang',k)}catch(e){}
+try{history.replaceState(null,'','#'+k)}catch(e){}
+if(scroll)window.scrollTo(0,0);
+}
+document.querySelector('.bar').addEventListener('click',function(e){var b=e.target.closest('button');if(b)setLang(b.getAttribute('data-l'),true)});
+document.getElementById('app').addEventListener('click',function(e){
+var b=e.target.closest('.copy');if(!b)return;
+var v=b.getAttribute('data-c'),k=document.documentElement.getAttribute('lang');
+var done=function(){var old=b.textContent;b.textContent=(k==='en'?L.en:k==='ja'?L.ja:L.zh).copied;setTimeout(function(){b.textContent=old},1500)};
+try{navigator.clipboard.writeText(v).then(done,function(){})}catch(err){}
+});
+var start='ja';
+try{var h=location.hash.slice(1);if(L[h])start=h;else{var s=localStorage.getItem('kanamachi-lang');if(L[s])start=s;else{var n=(navigator.language||'').toLowerCase();start=n.indexOf('zh')===0?'zh':n.indexOf('ja')===0?'ja':n.indexOf('en')===0?'en':'ja'}}}catch(e){}
+setLang(start,false);
+</script>
+
+</body></html>
